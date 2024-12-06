@@ -17,18 +17,18 @@ module.exports = {
         }
       },
       colors: {
-        'blue-chalk': '#E6EDF1',
-        'ball-blue': '#00A8E8',
-        'bluish-grey': '#7F8B8F',
-        'green-vogue': '#003459',
+        'icy-blue': '#E6EDF1',
+        'sky-blue': '#00A8E8',
+        'cool-gray': '#7F8B8F',
+        'oxford-blue': '#003459',
       },
       lineHeight: {
         '110': '110%',
         '150': '150%',
       },
       fontSize: {
-        'custom-4xl': '38px',
-        'custom-6xl': '64px',
+        'custom-lg': '38px',
+        'custom-xl': '64px',
       },
       margin: {
         'custom-10': '42px',

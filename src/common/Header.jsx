@@ -39,7 +39,7 @@ const Header = () => {
                 <a href="/">
                     <img className='pointer-events-none max-w-[207px] min-h-[72px]' src={headerlogo } />
                 </a>
-                <div className={`flex flex-col lg:flex-row items-center max-lg:z-20 xl:gap-[24px] max-lg:gap-6 max-lg:fixed max-lg:justify-center duration-300 ease-linear top-0 max-lg:-right-full bg-blue-500 lg:bg-transparent max-lg:h-screen max-lg:w-full ${show ? "" : " !right-0"
+                <div className={`flex flex-col lg:flex-row items-center max-lg:z-20 gap-[24px] max-lg:gap-6 max-lg:fixed max-lg:justify-center duration-300 ease-linear top-0 max-lg:-right-full bg-blue-500 lg:bg-transparent max-lg:h-screen max-lg:w-full ${show ? "" : " !right-0"
                     }`}>
                     {NAV_ITEMS_DATA.map((items, index) => (
                         <a key={index} href={items.path} className='font-normal text-custom-xl text-white leading-custom-lg'>{items.text}</a>
