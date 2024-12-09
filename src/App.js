@@ -1,15 +1,14 @@
-// import Header from './common/Header';
 import CompanyList from './components/CompanyList';
 import EnergyPlans from './components/EnergyPlans';
 import SimpleSteps from './components/SimpleSteps';
-// import Hero from './components/Hero';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <>
-      {/* <Hero /> */}
-      {/* <CompanyList/> */}
-      {/* < EnergyPlans/> */}
+      <Hero />
+      <CompanyList/>
+      < EnergyPlans/>
       <SimpleSteps/>
     </>
   );

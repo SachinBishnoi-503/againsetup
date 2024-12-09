@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { NAV_ITEMS_DATA } from '../Utils/Helper';
 import CustomButton from '../common/CustomButton'
-import headerlogo from '../assets/images/webp/header-logo.webp'
 
 const Header = () => {
     const [show, setShow] = useState(true);
@@ -37,7 +36,7 @@ const Header = () => {
         <div className={`${!show ? "min-h-screen " : ""} `}>
             <div className="flex justify-between items-center py-4 container ">
                 <a href="/">
-                    <img className='pointer-events-none max-md:max-w-[120px] md:max-w-[207px] max-min-h-[40px] md::min-h-[72px]' src={headerlogo } />
+                    <img className='pointer-events-none max-md:max-w-[120px] md:max-w-[207px] max-min-h-[40px] md::min-h-[72px]' src="./assets/images/webp/header-logo.webp" />
                 </a>
                 <div className={`flex flex-col lg:flex-row items-center max-lg:z-20 gap-[24px] max-lg:gap-6 max-lg:fixed max-lg:justify-center duration-300 ease-linear top-0 max-lg:-right-full bg-blue-500 lg:bg-transparent max-lg:h-screen max-lg:w-full ${show ? "" : " !right-0"
                     }`}>

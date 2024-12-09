@@ -16,6 +16,9 @@ module.exports = {
           '2xl': "1440px",
         }
       },
+      backgroundImage: {
+        'hero-bg':"url('../public/assets/images/webp/hero-bg.webp')",
+      },
       colors: {
         'icy-blue': '#E6EDF1',
         'sky-blue': '#00A8E8',
@@ -28,8 +31,7 @@ module.exports = {
       lineHeight: {
         'custom-ssm': '35px',
         'custom-sm': '52px',
-        'custom-lg': '110%',
-        'custom-xl': '150%',
+        'custom-lg': '70px',
       },
       fontSize: {
         'custom-sm': '32px',

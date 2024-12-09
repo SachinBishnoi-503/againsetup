@@ -6,7 +6,7 @@ const EnergyPlans = () => {
     return (
         <div className='max-lg:mt-[100px] max-md:mt-[60px] lg:mt-[162px]'>
             <div className='container'>
-                <div className='flex flex-row flex-wrap -mx-3'>
+                <div className='flex flex-row flex-wrap -mx-3 items-center'>
                     <div className='px-3 max-xl:w-full xl:w-1/2 max-xl:justify-center max-xl:flex'>
                         <img src="./assets/images/png/switching-energy.png" alt="" className='max-md:w-full md:max-w-[507px] max-md:h-full md:min-h-[451px]' />
                     </div>
