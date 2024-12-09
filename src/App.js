@@ -1,6 +1,7 @@
 // import Header from './common/Header';
 import CompanyList from './components/CompanyList';
 import EnergyPlans from './components/EnergyPlans';
+import SimpleSteps from './components/SimpleSteps';
 // import Hero from './components/Hero';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <>
       {/* <Hero /> */}
       {/* <CompanyList/> */}
-      < EnergyPlans/>
+      {/* < EnergyPlans/> */}
+      <SimpleSteps/>
     </>
   );
 }

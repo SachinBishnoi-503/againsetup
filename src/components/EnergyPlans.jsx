@@ -1,9 +1,10 @@
 import React from 'react'
-import { Money_By } from '../Utils/Helper'
+import { MONEY_BY } from '../Utils/Helper'
+import CustomButton from '../common/CustomButton'
 
 const EnergyPlans = () => {
     return (
-        <div>
+        <div className='max-lg:mt-[100px] max-md:mt-[60px] lg:mt-[162px]'>
             <div className='container'>
                 <div className='flex flex-row flex-wrap -mx-3'>
                     <div className='px-3 max-xl:w-full xl:w-1/2 max-xl:justify-center max-xl:flex'>
@@ -17,13 +18,16 @@ const EnergyPlans = () => {
                                 Benefits of Comparing Energy Plans
                             </h3>
                             <div className='mt-[38px]'>
-                                {Money_By.map((obj, i) => (
+                                {MONEY_BY.map((obj, i) => (
                                     <div key={i} className='mt-2'>
                                         <ul>
                                             <li className=''>{obj.list}</li>
                                         </ul>
                                     </div>
                                 ))}
+                            </div>
+                            <div className='mt-[42px]'>
+                                <button className='flex items-center gap-1 py-3 px-[27px] font-bold text-base rounded-[0_50px_50px_20px] bg-sky-blue text-white'>Compare With Us</button>
                             </div>
                         </div>
                     </div>

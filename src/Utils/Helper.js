@@ -7,7 +7,7 @@ export const NAV_ITEMS_DATA = [
     { text: "FAQ", path: "/" },
 
 ];
-export const Company_Names = [
+export const COMPANY_NAME = [
     {
         logo: './assets/images/png/firstenergy.png',
         alt: 'alg'
@@ -39,7 +39,7 @@ export const Company_Names = [
         alt: 'alg'
     }
 ];
-export const Money_By = [
+export const MONEY_BY = [
     {
         list: 'Save money by finding cheaper deals.'
     },
@@ -49,5 +49,39 @@ export const Money_By = [
     {
         list: 'Explore greener, more sustainable energy options.'
     }
+]
+export const SIMPLE_STEPS = [
+    {
+        image: './assets/images/png/simple-steps.png',
+        alt: 'Enter Location',
+        imageHeading: '1. Enter Your Location and Preferences',
+        hoverHeading: '1. Your Location',
+        hoverParagraph: 'Complete the process in just a few clicks. We’ll handle the rest and ensure a smooth transition to your new provider.'
+    },
+
+    {
+        image: './assets/images/png/simple-steps.png',
+        alt: 'Enter Location',
+        imageHeading: '1. Compare Providers',
+        hoverHeading: '1. Your Location',
+        hoverParagraph: 'Complete the process in just a few clicks. We’ll handle the rest and ensure a smooth transition to your new provider.'
+    },
+
+    {
+        image: './assets/images/png/simple-steps.png',
+        alt: 'Enter Location',
+        imageHeading: '1. Enter Your Location and Preferences',
+        hoverHeading: '1. Your Location',
+        hoverParagraph: 'Complete the process in just a few clicks. We’ll handle the rest and ensure a smooth transition to your new provider.'
+    },
+
+    {
+        image: './assets/images/png/simple-steps.png',
+        alt: 'Enter Location',
+        imageHeading: '1. Choose the Best Plan',
+        hoverHeading: '1. Your Location',
+        hoverParagraph: 'Complete the process in just a few clicks. We’ll handle the rest and ensure a smooth transition to your new provider.'
+    },
+
 ]
 

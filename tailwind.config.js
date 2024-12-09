@@ -21,8 +21,12 @@ module.exports = {
         'sky-blue': '#00A8E8',
         'cool-gray': '#7F8B8F',
         'oxford-blue': '#003459',
+        'light-sky-blue': '#E5F3F8',
+        'deep-ocean': '#003459',
+        'link-white':'#EAF9FF',
       },
       lineHeight: {
+        'custom-ssm': '35px',
         'custom-sm': '52px',
         'custom-lg': '110%',
         'custom-xl': '150%',
