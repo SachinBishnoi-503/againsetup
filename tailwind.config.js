@@ -27,8 +27,8 @@ module.exports = {
         '150': '150%',
       },
       fontSize: {
-        'custom-lg': '38px',
-        'custom-xl': '64px',
+        'custom-4xl': '38px',
+        'custom-6xl': '64px',
       },
       margin: {
         'custom-10': '42px',
