@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
         </div>
         <div className='w-1/2 max-lg:w-full'>
-          <img className='max-lg:w-full' src="./assets/images/webp/hero-office-image.webp" alt="HeroImage" />
+          <img className='md:max-w-[558px] max-md:w-full max-md:h-full md:min-h-[760px]' src="./assets/images/webp/hero-office-image.webp" alt="HeroImage" />
         </div>
       </div>
     </div>
