@@ -23,10 +23,13 @@ module.exports = {
         'oxford-blue': '#003459',
       },
       lineHeight: {
+        'custom-sm': '52px',
         'custom-lg': '110%',
         'custom-xl': '150%',
       },
       fontSize: {
+        'custom-sm': '32px',
+        'custom-lg': '48px',
         'custom-4xl': '38px',
         'custom-6xl': '64px',
       },
