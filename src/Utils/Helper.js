@@ -9,33 +9,33 @@ export const NAV_ITEMS_DATA = [
 ];
 export const COMPANY_NAME = [
     {
-        logo: './assets/images/png/firstenergy.png',
+        companyimages: './assets/images/png/firstenergy.png',
         alt: 'alg'
     },
     {
-        logo: './assets/images/png/bluenrg.png',
+        companyimages: './assets/images/png/bluenrg.png',
         alt: 'alg'
     },
     {
-        logo: './assets/images/png/dodo.png',
-        alt: 'alg'
-    },
-
-    {
-        logo: './assets/images/png/origin.png',
-        alt: 'alg'
-    },
-    {
-        logo: './assets/images/png/ovo.png',
+        companyimages: './assets/images/png/dodo.png',
         alt: 'alg'
     },
 
     {
-        logo: './assets/images/png/sumo.png',
+        companyimages: './assets/images/png/origin.png',
         alt: 'alg'
     },
     {
-        logo: './assets/images/png/agl.png',
+        companyimages: './assets/images/png/ovo.png',
+        alt: 'alg'
+    },
+
+    {
+        companyimages: './assets/images/png/sumo.png',
+        alt: 'alg'
+    },
+    {
+        companyimages: './assets/images/png/agl.png',
         alt: 'alg'
     }
 ];
